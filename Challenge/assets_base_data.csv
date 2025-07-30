@@ -1,0 +1,5 @@
+asset_id;metering_point_id;capacity__kw;technology;contract_begin;contract_end;price_model;price__eur_per_mwh;fee_model;fee__eur_per_mwh;fee_percent
+a_1;mp_1;1000;solar;2024-01-01;;fixed;10.0;fixed_as_produced;1.2;
+a_2;mp_2;2000;solar;2024-02-01;;market;;fixed_as_produced;1.4;
+a_3;mp_3;5000;wind;2024-07-01;;fixed;15.0;fixed_for_capacity;0.6;
+a_4;mp_4;500;solar;2024-06-01;;fixed;15.0;percent_of_market;;15
