@@ -391,10 +391,10 @@ output_path = "Output/"
 sb.despine()
 sb.set_palette("bright")
 fig.subplots_adjust(
-    top=0.9,    # Abstand zum oberen Rand (0–1)
-    bottom=0.1, # Abstand zum unteren Rand
-    left=0.1,   # Abstand zum linken Rand
-    right=0.9   # Abstand zum rechten Rand
+    top=0.9,    
+    bottom=0.1, 
+    left=0.1,   
+    right=0.9   
 )
 
 fig.savefig(f'{output_path}Dashboard.pdf', bbox_inches="tight", format="pdf")
